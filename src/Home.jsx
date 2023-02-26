@@ -1,10 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../src/index.css';
-import {Link} from 'react-router-dom';
-import HelpCenter from './HelpCenter'
-import Download from './Download';
-import Blog from './Blog'
-import Privacy from './Privacy';
 import First from './images/First.png'
 import Audio from './images/Audio.png'
 import GoodMornImg from './images/GoodMorningMom.png';
@@ -69,7 +64,7 @@ function Home() {
         <button>Download <i className="fa fa-download down-icon"></i> </button>
         <a href="home">WhatsApp Web</a>
         <a href="blog">Blog</a>
-        <a href="helpcenter">Help Center</a>
+        <a href="helpcenter">Help</a>
         <a href="privacy">Privacy</a>
         <a to="/featues">Features</a>
       </div>
