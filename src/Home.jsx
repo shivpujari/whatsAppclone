@@ -60,7 +60,7 @@ function Home() {
   return (
     <div className='hoMe'>
       <div className='nav-bar'>
-        <img src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png"></img>
+        <img alt='logo' src="https://static.whatsapp.net/rsrc.php/v3/y7/r/DSxOAUB0raA.png"></img>
         <button>Download <i className="fa fa-download down-icon"></i> </button>
         <a href="home">WhatsApp Web</a>
         <a href="blog">Blog</a>
@@ -70,7 +70,7 @@ function Home() {
       </div>
       <div className='twoimg'>
         <div className='goodm'>
-        <img className='goodMornMsg' src={GoodMornImg}/>
+        <img alt='msg' className='goodMornMsg' src={GoodMornImg}/>
         </div>
         <div className='writtenContent'>
         <div className='contentLeft'>
@@ -80,19 +80,19 @@ function Home() {
           <button className='btntwo'>Download <i className="fa fa-download "></i></button>
           </div>
           <div className='contentRight'>
-          <img className='audio' src={Audio} />
-          <img src={teacup} className="teacup"/>
-          <img className='twoladies' src={twoLadyHide} >
+          <img alt='second' className='audio' src={Audio} />
+          <img alt='third' src={teacup} className="teacup"/>
+          <img alt='four' className='twoladies' src={twoLadyHide} >
           </img>
           <p className='emoji'> &#128525;</p> 
         </div>
         <div className='lastinImg'>
-          <img className='canwait' src={cantWait} />
+          <img alt='five' className='canwait' src={cantWait} />
         </div>
         </div>
       </div>
       <div className='helloimg'>
-       <img   src={First} />
+       <img  alt='six' src={First} />
       </div>
       <div className='paragraph'>
         <p>With private messaging and calling, you can be yourself,
@@ -100,7 +100,7 @@ function Home() {
           people in your life no matter where they are.</p>
       </div>
       <div className='secondhi'>
-        <img src={FourFive} />
+        <img alt='seven' src={FourFive} />
       </div>
       <div className='parawithimg'>
         <div className='leftpara'>
@@ -112,12 +112,12 @@ function Home() {
           <a href="learnMore" className='rightarrow'>Learn More <i className="fa fa-angle-right "></i></a>
         </div>
         <div className='rightimg'>
-          <img src={Videocall} />
+          <img alt='eight' src={Videocall} />
         </div>
       </div>
       <div className='blackDiv'>
         <div className='leftBlock'>
-          <img src={speakfreely} />
+          <img alt='nine' src={speakfreely} />
         </div>
         <div className='rightPara'>
           <h1>Speak <br /> <span>freely</span></h1>
@@ -138,16 +138,16 @@ function Home() {
           </div>
           <div className='backGround'>
             <div className='imgWithback'>
-            <img  className='backwhite' src={backgroudWhite}/>
-          <img className='family' src={pausedVideo}></img>
+            <img alt='ten' className='backwhite' src={backgroudWhite}/>
+          <img alt='family' className='family' src={pausedVideo}></img>
           </div>
           </div>
         
       </div>
       <div className='sayFeel'>
         <div className='righTone'>
-          <img className='smileGirl' src={Laughlady} />
-          <img className='heartOne' src={pebbleimg} />
+          <img alt='eleven' className='smileGirl' src={Laughlady} />
+          <img alt='twelve' className='heartOne' src={pebbleimg} />
         </div>
         <div className='lefTone'>
           <h1>Say what<br />
@@ -168,7 +168,7 @@ function Home() {
           <a className='vegeA' href="learnMore">Learn More <i className="fa fa-angle-right "></i></a>
         </div>
         <div className='paraWithVege'>
-          <img src={vegeimg} />
+          <img alt='thirten' src={vegeimg} />
         </div>
       </div>
       <div className='divWithSlide'>
@@ -197,7 +197,7 @@ function Home() {
 
       <div className='Footer'>
         <div className='footer1div'>
-          <img src={whatsimg}></img>
+          <img alt='fourteen' src={whatsimg}></img>
           <button>Download <i className="fa fa-download footer-arrow"></i> </button>
         </div>
         <div className='footer2div'> <p className='smallPara'>What we do</p>
