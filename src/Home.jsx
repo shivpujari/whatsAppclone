@@ -15,7 +15,8 @@ import Laughlady from './images/laughingLady.png'
 import pebbleimg from './images/pebbleBeachimg.png'
 import vegeimg from './images/vegeImg.png'
 import whatsimg from './images/Qhrnh5evyPV.png'
-
+import threeHello from '../src/threeHello.png'
+import secondhimedia from './images/secondHiInmedia.png'
 
 
 const information = [
@@ -92,6 +93,7 @@ function Home() {
         </div>
       </div>
       <div className='helloimg'>
+      <img src={threeHello} className="inMedia"/>
        <img  alt='six' src={First} />
       </div>
       <div className='paragraph'>
@@ -100,7 +102,8 @@ function Home() {
           people in your life no matter where they are.</p>
       </div>
       <div className='secondhi'>
-        <img alt='seven' src={FourFive} />
+      <img alt='' className='secondhiinmedia' src={secondhimedia} />
+        <img alt='seven' className='inreact' src={FourFive} />
       </div>
       <div className='parawithimg'>
         <div className='leftpara'>
@@ -202,7 +205,6 @@ function Home() {
         </div>
         <div className='footer2div'> <p className='smallPara'>What we do</p>
           <h3>Features</h3>
-
           <h3>Blog</h3>
           <h3>Stories</h3>
           <h3>For Business</h3>

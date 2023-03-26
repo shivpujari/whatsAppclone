@@ -14,7 +14,7 @@
   height: 80px;
   width: 100%;
   background-color: azure;
-  position: sticky;
+  /* position: sticky; */
 }
 
 .nav-bar img {
@@ -157,6 +157,9 @@
   height: 300px;
   width: 95%;
 }
+.inMedia{
+  display: none;
+}
 
 .helloimg img {
   height: 240px;
@@ -186,6 +189,9 @@
 .secondhi {
   height: 300px;
   width: 95%;
+}
+.secondhiinmedia{
+  display: none;
 }
 
 .secondhi img {
@@ -701,4 +707,283 @@
 
 .connectWithUshideDiv {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .hoMe{
+    height: 100vh;
+    width: 100%;
+    display: block;
+  }
+  .nav-bar{
+    height: 70px;
+  }
+  .nav-bar img{
+    margin: 5px;
+  }
+  .nav-bar a{
+   display: none;
+  }
+  .nav-bar button{
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+  }
+  .twoimg{
+    width: 100%;
+    background-image: url('images/HugTwoLAdyPic.png'); 
+    margin-left: 10px;
+    
+  }
+  
+  .goodm {
+    height: 100px;
+    width: 100%;
+    margin: 0px 0px 0px -600px;
+  }
+  .contentLeft{
+    margin-top: 150px;
+  }
+  .contentRight{
+    display: none;
+  }
+  .goodMornMsg{
+    margin: 0;
+  }
+  .firstPara{
+    margin-left: 0px;
+    font-size: 45px;
+  }
+  .canwait{
+    display: none;
+  }
+.helloimg img{
+display: none;
+} 
+.helloimg {
+  /* background-image: url('threeHello.png'); */
+  height: 200px;
+
+}
+.helloimg .inMedia{
+  display: block;
+  height:220px;
+  width: 90%;
+}
+.paragraph p{
+  font-size: 25px;
+  line-height: 25px;
+  padding: 0;
+}
+.secondhi .inreact{
+  display: none;
+}
+.secondhi .secondhiinmedia{
+  display: block;
+margin: -100px 10px 10px 20px;
+}
+.leftpara{
+  display: none;
+}
+.rightimg img{
+  align-items: center;
+  right: 0;
+
+}
+.blackDiv{
+  height: 900px;
+}
+.leftBlock{
+  width: 100%;
+
+}
+.leftBlock img{
+  align-items: center;
+  margin: 0;
+}
+.rightPara{
+  float: none;
+  margin-top: -345px;
+  width: 100%;
+}
+.rightPara h1{
+  font-size: 35px;
+ line-height: 35px;
+}
+.rightPara p{
+  margin: 0px 10px 0px 30px;
+}
+.imgTouch{
+  height: 400px;
+  width: 100%;
+  float: none;
+}
+.imgTouch h1{
+  font-size: 30px;
+  margin: 10px 0px 20px 20px;
+}
+.imgTouch p{
+  font-size: 30px;
+  margin: 10px 0px 20px 20px;
+}
+.backGround{
+  height: 400px;
+  width: 100%;
+  float: none;
+}
+.imgWithback{
+  margin: 450px 0px 0px -200px;
+}
+.backwhite{
+  height: 500px;
+  width: 100%;
+  margin: 10px 0px 0px 20px;
+}
+.sayFeel{
+  height: 600px;
+  width: 100%;
+  /* display: block; */
+  
+}
+.righTone{
+  height: 600px;
+  width: 100%;
+  margin: 700px 0px 0px 0px;
+}
+.righTone .smileGirl{
+  width: 100%;
+  margin: 10px 0px 0px 20px;
+
+}
+.lefTone{
+  height: 400px;
+  width: 100%;
+  margin: 300px 0px 0px 0px;
+}
+.lefTone h1{
+  font-size: 30px;
+  margin: 160px 10px 0px -230px;
+  font-weight: 600;
+  /* letter-spacing: -1px; */
+}
+.lefTone p{
+  font-size: 17px;
+  margin: 10px 0px 20px -230px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.lefTone a{
+  margin-left: -230px;
+
+}
+
+/* .divVegetables{
+  margin-top: 650px;
+} */
+.picWithVege{
+display: none;
+  
+}
+
+.paraWithVege{
+display: none;
+}
+.divWithSlide h1{
+  font-size: 30px;
+  margin: 30px 25px 10px 40px;
+
+}
+
+.divWithSlide .btnfirst {
+ margin: 150px 0px 0px 10px;
+}
+.divWithSlide .btnsecond{
+ margin: 150px 0px 0px 10px;
+}
+.onlyDivs{
+  height: 300px;
+  width: 100%;
+}
+.nextPrev{
+  margin: 250px 0px 0px 0px;
+  height: 100px;
+  width: 80px;
+}
+
+.firstDiv{
+  height: 450px;
+  width: 35%;
+ margin: 80px 10px 0px 0px;
+}
+.firstDiv h3{
+  margin: 10px 10px 0px 20px;
+  font-size: 20px;
+}
+.firstDiv p {
+  margin: 10px 0px 0px 20px;
+  font-size: 13px;
+}
+.btnInsideDiv {
+  height: 40px;
+  width: 100px;
+  margin: 30px 10px 10px 20px;
+}
+.Footer{
+  width: 100%;
+}
+.footer1div img {
+  margin: 20px 0px 30px 20px;
+
+}
+.footer1div button{
+  display: none;
+}
+.footer2div{
+  margin-left: -140px;
+}
+
+
+.smallPara{
+  font-size: 11px;
+  /* margin: 10px ; */
+}
+.Footer h3 {
+  font-size: 15px;
+  margin: 20px 10px -12px 15px;
+  word-spacing: 0px;
+}
+.lastDiv{
+  width: 100%;
+  height: 110px;
+
+}
+.twothree{
+display: none;
+}
+
+.Icons{
+  height: 30px;
+  width: 30px;
+  margin: 20px 5px 10px 30px;
+}
+.lastDiv select {
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 17px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 }
